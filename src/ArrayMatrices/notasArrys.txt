@@ -1,0 +1,13 @@
+************************************NOTAS ARRAYS***************************************************** 
+
+EQUALS: permite la comparacion del contenido de 2 arrays
+
+******ejercicios:
+desarrolla un programa que pida por consola el numero de alumnos de una clase y que acontinuacion 
+solicite los N nombres para almacenarlos en un array. acontinuacion, implementa los metodos 
+necesarios para eliminar a un alumno del array a partir de su nombre, para añadir un alumno 
+nuevo al array de alumnos y para ordenar el listado de alumnos.
+******ejerccios
+escribe un programa que sea capaz de controlar el numero de palabras diferentes que hay en un
+texto que se le pasa por argumento, sin tener en cuenta si estan escritas en mayusculas 
+a minusculas 

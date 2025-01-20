@@ -1,0 +1,53 @@
+VISIBILIDAD
+	.PUBLIC: podemos llamar a los atributos, metodos, constantes, etc... desde la misma clase, paquete,
+		 subclase de otro paquete y resto
+	.PROTECTED:igual que public pero sin el resto
+	.DEFECTO: se refiere a cuando no se le indica ningun tipo de visisbilidad, a este solo se le puede llamar desde
+		la misma clase y el mismo paquete 
+	.PRIVATE: solo desde la propie clase
+
+STATIC
+	.si un metodo, atributo, constante, etc... es static puedo llamarlo desde fuera de la clase 
+	sin necesidad de instanciar la clase, metodo, atributo que contiene el static
+	
+	CON STATIC
+	
+	Persona.IRPF (valido)
+	
+	SIN STATIC
+	
+	Persona persona = new Persona();
+	persona.IRPF (valido)
+
+FINAL
+	
+	.el final solo sirve para aquellos valores que seran constantes
+	.solo en la asignacion directa es donde el final no permite cambiar el valor 
+	
+	Persona.IRPF = 100;(asignacion directa)
+	Persona.setIRPF(100);
+	Persona(IRPF)
+	
+************************************TIPOS DE CLASE************************************************************
+	
+INTERFACES
+	.las interces solo tienen constantes y metodos con signatura 
+	.los metodos dentro de las interfaces no tienen cuerpo, solo la signatura y se cierra con ;
+	.los constructores, hascode, equals y tostring van en las clases normales 
+	.en una interfaz todos los metodos son publicos por defecto, sin embargo es recomendable indicarlo
+	.en una interfaz todos los metodos por defecto son abstacto de forma implicita y un metodo abstacto 
+		es precisamente lo del punto 2 precisamente por ser abstactros
+	. si quiero que un metodo tenga cuerpo en una interfaz le tengo que añadir "static o default"
+		
+	
+ABSTACT
+	. En una clase abstarcta puedo tener tanto metodos abstarcto como necesite, pero minimo necesito 1
+	. y los que no son abstracto se llaman concretos
+*******************************************************************************************************
+ARRAY
+	.[][] el primer par de llaves es para indicar el numero de filas y el segundo es para indicar
+	 el numero de columnas
+	 
+***********************************expresiones regulares*************************
+PATTERM: representa un patron puuede admitir la expresion regular
+MATCHER:
