@@ -10,4 +10,5 @@ nuevo al array de alumnos y para ordenar el listado de alumnos.
 ******ejerccios
 escribe un programa que sea capaz de controlar el numero de palabras diferentes que hay en un
 texto que se le pasa por argumento, sin tener en cuenta si estan escritas en mayusculas 
-a minusculas 
+a minusculas
+**********************************ejercicos*************************************************** 

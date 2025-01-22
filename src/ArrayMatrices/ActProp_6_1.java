@@ -18,7 +18,7 @@ public class ActProp_6_1 {
 		
 		ArrayList<Integer> numerosAleatorios = new ArrayList();
 		for (int i = 0; i < 100; i++) {
-			numerosAleatorios.add(random.nextInt(1000));
+			numerosAleatorios.add(random.nextInt(99)+1);
 		}
 		return numerosAleatorios;
 	}
